@@ -13,8 +13,6 @@ const app = express();
 ConnectDB();
 //declaring cors allowed origins
 const allowedOrigins = [
-    'http://localhost:5174', 
-    'https://mern-auth-demo.netlify.app',
     'https://jwt-auth-frontend-gray.vercel.app'
     ] 
 
