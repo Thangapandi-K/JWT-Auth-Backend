@@ -12,7 +12,13 @@ const app = express();
 //connecting database
 ConnectDB();
 //declaring cors allowed origins
-const allowedOrigins = ['http://localhost:5174', 'https://mern-auth-demo.netlify.app'] 
+const allowedOrigins = [
+    'http://localhost:5174', 
+    'https://mern-auth-demo.netlify.app',
+    'https://jwt-auth-frontend-gray.vercel.app/'
+    ] 
+
+
 //getting port from .env file
 const PORT = process.env.PORT;
 //middlewares
